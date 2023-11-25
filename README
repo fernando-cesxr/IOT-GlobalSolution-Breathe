@@ -2,3 +2,5 @@ Com o mundo cada vez mais quente e cada vez mais seco, quem já tinha dificuldad
 O usuário se registra no aplicativo, e insere sua doença crônica. A partir daí, através do monitoramento, poderemos ver se o ambiente ao redor está nas condições ideias. Caso não esteja, será enviada uma mensagem de alerta para que o usuário tome medidas e fique atento.
 Utilizamos um sensor DHT22 conectado a uma placa ESP32 para enviar dados de temperatura e umidade. Conectamos ela ao wifi, no caso a uma rede pública mas a intenção seria conectar ao wifi da casa do usuário, para capturar os dados do ambiente a todo momento e envia-las a um serviço MQTT, depois buscando eles e mostrando no dashboard para visualização, mas a ideia é o usuário ter ela na palma da mão. Usando o dashboard de exemplo, caso o ponteiro não esteja no verde, serão enviadas notificações ao usuário para alertá-lo.
 No caso, por ser um simulador, os dados vem como padrão, então não temos um exemplo real. Nossa ideia é oferecer um monitoramento 24h para os usuários portadores dessas doenças crônicas
+
+Protótipo: https://wokwi.com/projects/382212140253449217
