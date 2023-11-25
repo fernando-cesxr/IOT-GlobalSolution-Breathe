@@ -4,3 +4,4 @@ Utilizamos um sensor DHT22 conectado a uma placa ESP32 para enviar dados de temp
 No caso, por ser um simulador, os dados vem como padrão, então não temos um exemplo real. Nossa ideia é oferecer um monitoramento 24h para os usuários portadores dessas doenças crônicas
 
 Protótipo: https://wokwi.com/projects/382212140253449217
+Vídeo: https://youtu.be/YRh7IfPnXf0
